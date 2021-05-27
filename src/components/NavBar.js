@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import { SocialIcon } from "react-social-icons";
+import image from "../face.jpg";
 
 class NavBar extends Component {
   render() {
     return (
-      <header className="nav">
-        <div className="container mx-auto flex justify-between ">
+      <header className="nav relative">
+        <div className="relative container mx-auto flex justify-between ">
           <nav className="flex">
             <NavLink
               exact
@@ -38,35 +38,8 @@ class NavBar extends Component {
               Contact
             </NavLink>
           </nav>
-          <div className="inline-flex py-3 px-3 my-6">
-            <SocialIcon
-              url="https://www.linkedin.com/in/-joshua-george/"
-              className="mr-4"
-              target="_blank"
-              fgColor="#fff"
-              style={{ height: 35, width: 35 }}
-            />
-            <SocialIcon
-              url="https://www.instagram.com/1travelintexan/"
-              className="mr-4"
-              target="_blank"
-              fgColor="#fff"
-              style={{ height: 35, width: 35 }}
-            />
-            <SocialIcon
-              url="https://github.com/1travelintexan"
-              className="mr-4"
-              target="_blank"
-              fgColor="#fff"
-              style={{ height: 35, width: 35 }}
-            />
-            <SocialIcon
-              url="https://www.codewars.com/users/1travelintexan"
-              className="mr-4"
-              target="_blank"
-              fgColor="#fff"
-              style={{ height: 35, width: 35 }}
-            />
+          <div className="face">
+            <img src={image} alt="mac picture" />
           </div>
         </div>
       </header>
