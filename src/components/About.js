@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import image from "../code1.jpeg";
+import image2 from "../myFace.jpg";
 
 class About extends Component {
   render() {
@@ -13,16 +14,19 @@ class About extends Component {
         <div className="relative flex justify-center">
           <h3 className="all-about-me">A little about me</h3>
         </div>
-        <section className="relative flex justify-center">
-          <div className="about">
+        <div className="about-page">
+          <div>
+            <img className="face" src={image2} alt="my picture" />
+          </div>
+          <section className="about">
             <h5>Junior Full-Stack Web Developer</h5>
             <h5>Native Texan, trying to make his mark on the world</h5>
             <h5>Avid surfer and lover of anything in the ocean</h5>
             <h5>Recreational chess player and code wars nube</h5>
-          </div>
-        </section>
+          </section>
+        </div>
         <div className="relative flex justify-center ">
-          <h3 className="collaborate">Let's collaborate together!</h3>
+          <h3 className="collaborate">Let's do something together!</h3>
         </div>
       </main>
     );

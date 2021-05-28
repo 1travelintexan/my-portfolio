@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import image from "../face.jpg";
 
 class NavBar extends Component {
   render() {
