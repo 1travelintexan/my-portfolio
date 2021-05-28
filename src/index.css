@@ -8,6 +8,7 @@
 }
 .nav {
   border-bottom: 8px solid red;
+  box-shadow: 4px 4px 8px red;
   background-color: rgb(17, 16, 16);
 }
 
@@ -74,7 +75,8 @@
 }
 .projects h3 {
   font-size: 4vw;
-  color: rgb(12, 111, 241);
+  color: rgb(252, 252, 252);
+  text-shadow: 4px 4px 8px rgb(255, 0, 0);
 }
 
 .margin {
@@ -87,8 +89,14 @@
 .contact {
   position: relative;
 }
+.home {
+  position: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: aliceblue;
+}
 .list {
-  position: relative;
   color: aliceblue;
   margin: 40px;
 }

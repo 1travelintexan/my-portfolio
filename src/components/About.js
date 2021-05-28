@@ -15,8 +15,8 @@ class About extends Component {
         </div>
         <section className="relative flex justify-center">
           <div className="about">
-            <h5>Native Texan, trying to make his mark on the world</h5>
             <h5>Junior Full-Stack Web Developer</h5>
+            <h5>Native Texan, trying to make his mark on the world</h5>
             <h5>Avid surfer and lover of anything in the ocean</h5>
             <h5>Recreational chess player and code wars nube</h5>
           </div>

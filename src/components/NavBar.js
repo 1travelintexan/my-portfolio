@@ -38,9 +38,6 @@ class NavBar extends Component {
               Contact
             </NavLink>
           </nav>
-          <div className="face">
-            <img src={image} alt="mac picture" />
-          </div>
         </div>
       </header>
     );

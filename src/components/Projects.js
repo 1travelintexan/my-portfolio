@@ -21,11 +21,11 @@ class Projects extends Component {
                 <h3>Life's a Beach</h3>
               </a>
               <p>
-                This was a joint effort app with my partner that is designed to
-                help clients budget for their dreamm vacation. You enter
-                information about your dream trip and after the app provides a
-                total estimated cost as well as a pie chart break down of the
-                expenses. (deployed through Heroku)
+                This was a joint effort app with my partner, it is designed to
+                help clients budget for their dream vacation. The client enters
+                information about their dream trip and the app provides the
+                total estimated cost for it, as well as, a pie chart to break
+                down the expenses
               </p>
             </div>
             <div className="margin">
@@ -35,8 +35,10 @@ class Projects extends Component {
               <p>
                 One of my more recent projects, Kook club is a friendly app that
                 is designed for surfers. It allows the client to create events
-                and anyone who is logged in can comment or give a 'shaka' for
-                the events. (deployed through Heroku)
+                and anyone who is signed up can comment or give a 'shaka' for
+                the events. I hope this can increase socialization between
+                surfers and improve surf saftey. No one should ever surf alone
+                (deployed through Heroku)
               </p>
             </div>
             <div className="margin">
@@ -44,10 +46,10 @@ class Projects extends Component {
                 <h3>Rippin Brah!</h3>
               </a>
               <p>
-                This is a game that is almost as fun and addictive to play as it
-                was to create. One of my first projects, and one that always
-                brings a smile to my face, it's modeled off of a childhood game
-                that I was obsessed with.
+                This is a 8-bit surfing game that is almost as fun and addictive
+                to play as it was to create. One of my first projects, and one
+                that always brings a smile to my face, it's modeled off of a
+                childhood game that I was obsessed with.
               </p>
             </div>
           </div>

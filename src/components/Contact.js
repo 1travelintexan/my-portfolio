@@ -24,7 +24,7 @@ class Contact extends Component {
                 Email: <Link>Horheyinc8@gmail.com</Link>
               </li>
               <li>Phone: +34 686 555 173 </li>
-              <li>Location: Beautiful Barcelona, Spain</li>
+              <li>Location: Barcelona, Spain</li>
             </ul>
           </div>
           <section className="mt-20 ml-20">
@@ -55,6 +55,13 @@ class Contact extends Component {
           />
           <SocialIcon
             url="https://www.codewars.com/users/1travelintexan"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 55, width: 55 }}
+          />
+          <SocialIcon
+            url="https://www.facebook.com/joshua.george.7"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
