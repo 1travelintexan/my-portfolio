@@ -4,6 +4,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import NavBar from "./components/NavBar";
+//just to push changes with build
 
 function App() {
   return (
