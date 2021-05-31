@@ -14,7 +14,7 @@ class Contact extends Component {
         />
         <div className="contact">
           <section>
-            <h1 className="text-6xl text-blue-100 ml-20 font-bold cursive leading-none lg:leading-snug home-name">
+            <h1 className="text-3xl text-blue-100 ml-10 font-bold cursive leading-none lg:leading-snug home-name">
               Joshua George
             </h1>
           </section>
@@ -27,7 +27,7 @@ class Contact extends Component {
               <li>Location: Barcelona, Spain</li>
             </ul>
           </div>
-          <section className="mt-20 ml-20">
+          <section className="mt-10 ">
             <h3 className="push">Feel free to push all my buttons...</h3>
           </section>
         </div>

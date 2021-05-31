@@ -8,7 +8,6 @@
 }
 .nav {
   border-bottom: 8px solid red;
-  box-shadow: 4px 4px 8px red;
   background-color: rgb(17, 16, 16);
 }
 
@@ -29,17 +28,11 @@
   font-size: 150px;
 }
 
-.all-about-me {
-  margin: 20px;
-  color: rgb(223, 230, 230);
-  height: 60px;
-  font-size: 60px;
-  font-family: fantasy;
-}
 .collaborate {
   color: rgb(246, 247, 248);
-  font-size: 90px;
+  font-size: 2rem;
   font-family: cursive;
+  text-align: center;
 }
 .projects {
   position: relative;
@@ -83,22 +76,25 @@
 }
 .list {
   color: aliceblue;
-  margin: 40px;
+  margin: 40px 20px 10px 40px;
 }
 .push {
   color: aliceblue;
-  font-size: 4vw;
+  font-size: 1.2rem;
+  text-align: center;
 }
 .icons {
-  margin-top: 30px;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .face {
   position: relative;
-  height: 400px;
+  height: 6rem;
+  margin-right: 10px;
   border: 6px solid whitesmoke;
   box-shadow: 6px 6px 12px red;
 }
@@ -110,15 +106,20 @@
 .about {
   position: relative;
   background-color: black;
-  height: 400px;
-  width: 800px;
   color: rgb(209, 247, 247);
   border-radius: 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  font-size: 32px;
-  padding: 30px;
-  margin: 50px;
+  font-size: 1rem;
+  padding: 10px;
+}
+.all-about-me {
+  margin: 20px;
+  color: rgb(223, 230, 230);
+  text-shadow: 3px 3px 6px red;
+  font-size: 2rem;
+  font-family: fantasy;
+  text-align: center;
 }
