@@ -5,7 +5,7 @@ class NavBar extends Component {
   render() {
     return (
       <header className="nav relative">
-        <div className="relative container mx-auto flex justify-around ">
+        <div className="relative container mx-auto flex justify-between ">
           <nav className="flex">
             <NavLink
               exact

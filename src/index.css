@@ -30,14 +30,15 @@
 
 .collaborate {
   color: rgb(246, 247, 248);
-  font-size: 2rem;
+  font-size: 6vw;
   font-family: cursive;
   text-align: center;
 }
 .projects {
   position: relative;
+  width: 70%;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.795);
-  width: 900px;
   color: rgb(209, 247, 247);
   border-radius: 40px;
   display: flex;
@@ -56,14 +57,10 @@
   color: rgb(252, 252, 252);
   text-shadow: 4px 4px 8px rgb(255, 0, 0);
 }
+.projects p {
+  font-size: 1.5vw;
+}
 
-.margin {
-  margin: 10px;
-}
-.margin a {
-  color: blue;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
 .contact {
   position: relative;
 }
@@ -80,7 +77,7 @@
 }
 .push {
   color: aliceblue;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   text-align: center;
 }
 .icons {
@@ -91,35 +88,46 @@
   padding-right: 20px;
   padding-left: 20px;
 }
+
+.main-about {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 .face {
   position: relative;
-  height: 6rem;
+  height: 10rem;
   margin-right: 10px;
   border: 6px solid whitesmoke;
   box-shadow: 6px 6px 12px red;
 }
 .about-page {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 .about {
   position: relative;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.568);
   color: rgb(209, 247, 247);
   border-radius: 40px;
+  width: 60%;
+  height: 150%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  font-size: 1rem;
+  font-size: 2.5vw;
   padding: 10px;
 }
 .all-about-me {
-  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   color: rgb(223, 230, 230);
   text-shadow: 3px 3px 6px red;
-  font-size: 2rem;
+  font-size: 6vw;
   font-family: fantasy;
   text-align: center;
 }
