@@ -12,22 +12,31 @@ class About extends Component {
           className="absolute object-cover w-full h-full"
         />
         <div className="main-about">
-          <div className="relative flex justify-center">
-            <h3 className="all-about-me">A little about me</h3>
-          </div>
-          <div className="about-page">
+          <h3 className="about-banner">A little about me...</h3>
+          <div className="about-pic-and-paragraph">
             <div>
-              <img className="face" src={image2} alt="my picture" />
+              <img className="about-face-pic" src={image2} alt="my picture" />
             </div>
-            <section className="about">
-              <h5>Junior Full-Stack Web Developer</h5>
-              <h5>Native Texan, trying to make his mark on the world</h5>
-              <h5>Avid surfer and lover of anything in the ocean</h5>
-              <h5>Recreational chess player and code wars nube</h5>
-            </section>
+            <div className="about-paragraph">
+              <h5>-Junior Full-Stack Web Developer(MERN).</h5>
+              <h5>
+                -Native Texan, doing my best to learn and grow as a person and
+                as a developer.
+              </h5>
+              <h5>
+                -Avid surfer and dive master. I bring the same wonder,
+                curiosity, and awe from the ocean to my web development career.
+              </h5>
+              <h5>
+                -Recreational chess player and someone who loves puzzles and
+                solving problems.
+              </h5>
+            </div>
           </div>
           <div className="relative flex justify-center mt-10 ">
-            <h3 className="collaborate">Let's do something together!</h3>
+            <h3 className="about-bottom-banner">
+              Let's do something together!
+            </h3>
           </div>
         </div>
       </main>

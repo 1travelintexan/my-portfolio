@@ -11,6 +11,10 @@
   text-shadow: 4px 4px 8px rgb(177, 177, 177);
 }
 
+.contact-name {
+  padding-top: 20px;
+}
+
 .nav {
   border-bottom: 8px solid red;
   background-color: rgb(17, 16, 16);
@@ -29,11 +33,12 @@
   border-radius: 5px;
 }
 
-.collaborate {
+.about-bottom-banner {
   color: rgb(246, 247, 248);
   font-size: 6vw;
   font-family: cursive;
   text-align: center;
+  margin-top: -10px;
 }
 .projects-container {
   position: relative;
@@ -73,27 +78,16 @@
   background-color: rgba(0, 0, 0, 0.795);
 }
 
-@media screen and (max-width: 980px) {
-  .projects-banner {
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    color: rgb(223, 230, 230);
-    text-shadow: 3px 3px 6px red;
-    font-size: 8vw;
-    font-family: fantasy;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.795);
-  }
-  .project h3 {
-    font-size: 8vw;
-    color: rgb(252, 252, 252);
-    text-shadow: 4px 4px 8px rgb(255, 0, 0);
-  }
-  .project p {
-    font-size: 3.5vw;
-    margin-bottom: 20px;
-  }
+.about-banner {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  color: rgb(223, 230, 230);
+  text-shadow: 3px 3px 6px red;
+  font-size: 4vw;
+  font-family: fantasy;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.795);
 }
 
 .contact {
@@ -106,13 +100,14 @@
   flex-direction: column;
   color: aliceblue;
 }
-.list {
+.contact-list {
   color: aliceblue;
   margin: 40px 20px 10px 40px;
 }
-.push {
+.contact-banner {
+  padding-top: 10px;
   color: aliceblue;
-  font-size: 1.9rem;
+  font-size: 4vw;
   text-align: center;
 }
 .icons {
@@ -131,29 +126,84 @@
   flex-direction: column;
   justify-content: center;
 }
-.face {
+.about-face-pic {
   position: relative;
-  height: 10rem;
+  height: 15rem;
   margin-right: 10px;
   border: 6px solid whitesmoke;
   box-shadow: 6px 6px 12px red;
 }
-.about-page {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.about {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.568);
-  color: rgb(209, 247, 247);
-  border-radius: 40px;
-  width: 60%;
-  height: 150%;
+.about-pic-and-paragraph {
+  width: 100%;
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: column;
-  font-size: 2.5vw;
-  padding: 10px;
+}
+.about-paragraph {
+  position: relative;
+  width: 60%;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.568);
+  color: rgb(209, 247, 247);
+  border-radius: 40px;
+  font-size: 1.5vw;
+}
+.about-paragraph h5 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 980px) {
+  .about-pic-and-paragraph {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-face-pic {
+    margin-bottom: 25px;
+    height: 12rem;
+  }
+  .about-banner {
+    font-size: 8vw;
+    padding: 15px;
+    margin-bottom: -5px;
+    border-radius: 10px;
+  }
+  .about-paragraph {
+    width: 90%;
+    font-size: 4vw;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .about-bottom-banner {
+    font-size: 8vw;
+  }
+  .projects-banner {
+    border-radius: 5px;
+    font-size: 8vw;
+  }
+  .project h3 {
+    font-size: 8vw;
+  }
+  .project p {
+    font-size: 3.5vw;
+    margin-bottom: 20px;
+  }
+  .about-page {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact-name {
+    margin-bottom: 20px;
+  }
+  .contact-list {
+    margin: 50px 0 50px 10px;
+  }
+  .contact-banner {
+    font-size: 5vw;
+  }
 }

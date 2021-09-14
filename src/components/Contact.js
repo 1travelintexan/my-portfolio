@@ -14,21 +14,23 @@ class Contact extends Component {
         />
         <div className="contact">
           <section>
-            <h1 className="text-3xl text-blue-100 ml-10 font-bold cursive leading-none lg:leading-snug home-name">
+            <h1 className="text-6xl text-blue-100 ml-10 font-bold cursive leading-none lg: contact-name">
               Joshua George
             </h1>
           </section>
-          <div className="list">
+          <div className="contact-list">
             <ul>
               <li>
                 Email: <Link>Horheyinc8@gmail.com</Link>
               </li>
               <li>Phone: +34 686 555 173 </li>
-              <li>Location: Barcelona, Spain</li>
+              <li>Location: Anywhere and Everywhere!</li>
             </ul>
           </div>
           <section className="mt-10 ">
-            <h3 className="push">Feel free to push all my buttons...</h3>
+            <h3 className="contact-banner">
+              Feel free to push all my buttons...
+            </h3>
           </section>
         </div>
         <div className="icons">
@@ -37,35 +39,35 @@ class Contact extends Component {
             className="mr-4"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 55, width: 55 }}
+            style={{ height: 45, width: 45 }}
           />
           <SocialIcon
             url="https://www.instagram.com/1travelintexan/"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 55, width: 55 }}
+            style={{ height: 45, width: 45 }}
           />
           <SocialIcon
             url="https://github.com/1travelintexan"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 55, width: 55 }}
+            style={{ height: 45, width: 45 }}
           />
           <SocialIcon
             url="https://www.codewars.com/users/1travelintexan"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 55, width: 55 }}
+            style={{ height: 45, width: 45 }}
           />
           <SocialIcon
             url="https://www.facebook.com/joshua.george.7"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 55, width: 55 }}
+            style={{ height: 45, width: 45 }}
           />
         </div>
       </main>
