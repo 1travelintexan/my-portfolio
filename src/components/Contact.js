@@ -21,7 +21,9 @@ class Contact extends Component {
           <div className="contact-list">
             <ul>
               <li>
-                Email: <Link>Horheyinc8@gmail.com</Link>
+                <a href="mailto:horheyinc8@gmail.com">
+                  <h3>Horheyinc8@gmail.com</h3>
+                </a>
               </li>
               <li>Phone: +34 686 555 173 </li>
               <li>Location: Anywhere and Everywhere!</li>

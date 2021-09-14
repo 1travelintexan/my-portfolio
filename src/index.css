@@ -10,7 +10,9 @@
 .project h3:hover {
   text-shadow: 4px 4px 8px rgb(177, 177, 177);
 }
-
+.contact-list h3:hover {
+  text-shadow: 6px 6px 8px rgb(204, 1, 1);
+}
 .contact-name {
   padding-top: 20px;
 }
