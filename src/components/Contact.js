@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
-import image from "../dark-world.jpeg";
+import image from "../images/dark-world.jpeg";
 
 class Contact extends Component {
   render() {

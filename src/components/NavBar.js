@@ -11,14 +11,14 @@ class NavBar extends Component {
               exact
               to="/"
               activeClassName="text-white"
-              className="inflex-flex items-center py-6 px-3 mr-4 rounded text-blue-100 hover:bg-gray-900 text-4xl font-bold cursive tracking-widest"
+              className="inflex-flex items-center justify-center py-9 px-2 mr-4 rounded text-blue-100 hover:bg-gray-900 text-3xl font-bold cursive tracking-widest md:text-4xl"
             >
               Home
             </NavLink>
             <NavLink
               to="/projects"
               activeClassName="bg-gray-800"
-              className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-100 hover:bg-gray-900"
+              className="inline-flex items-center py-1 px-3 my-6 rounded text-blue-100 hover:bg-gray-900"
             >
               Projects
             </NavLink>
@@ -27,7 +27,7 @@ class NavBar extends Component {
               activeClassName="bg-gray-800"
               className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-100 hover:bg-gray-900"
             >
-              About Me!
+              About Me
             </NavLink>
             <NavLink
               to="/contact"

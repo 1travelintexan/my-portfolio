@@ -6,6 +6,11 @@
   font-family: "Amatic SC", cursive;
   font-weight: 700;
 }
+
+.project h3:hover {
+  text-shadow: 4px 4px 8px rgb(177, 177, 177);
+}
+
 .nav {
   border-bottom: 8px solid red;
   background-color: rgb(17, 16, 16);
@@ -24,41 +29,71 @@
   border-radius: 5px;
 }
 
-.home-name {
-  font-size: 150px;
-}
-
 .collaborate {
   color: rgb(246, 247, 248);
   font-size: 6vw;
   font-family: cursive;
   text-align: center;
 }
-.projects {
+.projects-container {
   position: relative;
-  width: 70%;
-  height: auto;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.795);
   color: rgb(209, 247, 247);
-  border-radius: 40px;
+  border-radius: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 .link {
   color: blue;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.projects h3 {
-  font-size: 4vw;
+.project h3 {
+  font-size: 2.5vw;
   color: rgb(252, 252, 252);
   text-shadow: 4px 4px 8px rgb(255, 0, 0);
 }
-.projects p {
-  font-size: 1.5vw;
+.project p {
+  font-size: 1.2vw;
+  margin-bottom: 20px;
+}
+.projects-banner {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(223, 230, 230);
+  text-shadow: 3px 3px 6px red;
+  font-size: 3vw;
+  font-family: fantasy;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.795);
+}
+
+@media screen and (max-width: 980px) {
+  .projects-banner {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(223, 230, 230);
+    text-shadow: 3px 3px 6px red;
+    font-size: 8vw;
+    font-family: fantasy;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.795);
+  }
+  .project h3 {
+    font-size: 8vw;
+    color: rgb(252, 252, 252);
+    text-shadow: 4px 4px 8px rgb(255, 0, 0);
+  }
+  .project p {
+    font-size: 3.5vw;
+    margin-bottom: 20px;
+  }
 }
 
 .contact {
@@ -121,13 +156,4 @@
   flex-direction: column;
   font-size: 2.5vw;
   padding: 10px;
-}
-.all-about-me {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  color: rgb(223, 230, 230);
-  text-shadow: 3px 3px 6px red;
-  font-size: 6vw;
-  font-family: fantasy;
-  text-align: center;
 }
