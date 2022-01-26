@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
 import image from "../images/dark-world.jpeg";
 
@@ -9,7 +8,7 @@ class Contact extends Component {
       <main>
         <img
           src={image}
-          alt="mac picture"
+          alt="macbook air"
           className="absolute object-cover w-full h-full"
         />
         <div className="contact">

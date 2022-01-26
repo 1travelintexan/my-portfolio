@@ -7,7 +7,7 @@ class Home extends Component {
       <main>
         <img
           src={image}
-          alt="mac picture"
+          alt="macbook"
           className="absolute object-cover w-full h-full"
         />
         <section className="home relative flex items-start min-h-screen pt-8 lg:pt-28 px-8">

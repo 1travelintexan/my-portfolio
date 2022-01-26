@@ -4,7 +4,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import NavBar from "./components/NavBar";
-//just to push changes with build
+import Vanilla from "./components/Vanilla";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Route component={About} path="/about" />
         <Route component={Contact} path="/contact" />
         <Route component={Projects} path="/projects" />
+        <Route component={Vanilla} path="/project/vanillaJS" />
       </Switch>
     </BrowserRouter>
   );

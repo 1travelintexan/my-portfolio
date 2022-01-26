@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import image from "../images/mac-keyboard.jpeg";
 
 class Projects extends Component {
@@ -7,7 +8,7 @@ class Projects extends Component {
       <main>
         <img
           src={image}
-          alt="keyboard picture"
+          alt="mac keyboard"
           className="absolute object-cover w-full h-full"
         />
         <div className="relative flex justify-center">
@@ -15,6 +16,11 @@ class Projects extends Component {
         </div>
         <section className="relative flex justify-center">
           <div className="projects-container">
+            <div className="project">
+              <Link className="project-link" to="/project/vanillaJS">
+                Projects made with Vanilla Javascript
+              </Link>
+            </div>
             <div className="project">
               <a href="https://lifes-a-beach.herokuapp.com/">
                 <h3>Life's a Beach</h3>
@@ -35,16 +41,6 @@ class Projects extends Component {
                 between surfers and improve surf safety for new surfers. Styled
                 with bootstrap, created with React, Node, and Express. Deployed
                 through Heroku
-              </p>
-            </div>
-            <div className="project">
-              <a href="https://1travelintexan.github.io/Rippin-Brah-/">
-                <h3>Rippin Brah!</h3>
-              </a>
-              <p>
-                8-bit surfing game that is fun and addictive. One of my first
-                projects, and one that always brings a smile to my face, created
-                with canvas.
               </p>
             </div>
           </div>

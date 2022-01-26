@@ -8,14 +8,14 @@ class About extends Component {
       <main>
         <img
           src={image}
-          alt="code picture"
+          alt="coding"
           className="absolute object-cover w-full h-full"
         />
         <div className="main-about">
           <h3 className="about-banner">A little about me...</h3>
           <div className="about-pic-and-paragraph">
             <div>
-              <img className="about-face-pic" src={image2} alt="my picture" />
+              <img className="about-face-pic" src={image2} alt="personal" />
             </div>
             <div className="about-paragraph">
               <h5>-Junior Full-Stack Web Developer(MERN).</h5>
