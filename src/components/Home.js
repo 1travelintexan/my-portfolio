@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import image from "../images/mac.jpeg";
+import htmlImage from "../images/html.png";
+import cssImage from "../images/css.png";
+import jsImage from "../images/js.png";
+import nodeImage from "../images/node.png";
+import reactImage from "../images/react.png";
+import tsImage from "../images/ts.png";
 
 class Home extends Component {
   render() {
@@ -15,6 +21,14 @@ class Home extends Component {
             Joshua George
           </h1>
           <h5 className="best">Do your best and the rest will follow</h5>
+          <div className="logos-div">
+            <img src={jsImage} alt="html" className="logos relative" />
+            <img src={htmlImage} alt="html" className="logos relative" />
+            <img src={cssImage} alt="html" className="logos relative" />
+            <img src={reactImage} alt="html" className="logos relative" />
+            <img src={tsImage} alt="html" className="logos relative" />
+            <img src={nodeImage} alt="html" className="logos relative" />
+          </div>
         </section>
       </main>
     );

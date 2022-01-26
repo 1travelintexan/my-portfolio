@@ -7,6 +7,19 @@
   font-weight: 700;
 }
 
+.logos-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.489);
+  border-radius: 10px;
+}
+.logos {
+  height: 100px;
+}
 .project h3:hover {
   text-shadow: 4px 4px 8px rgb(177, 177, 177);
 }
