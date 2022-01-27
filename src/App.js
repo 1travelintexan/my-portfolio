@@ -4,7 +4,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import NavBar from "./components/NavBar";
-import Vanilla from "./components/Vanilla";
+import Vanilla from "./components/VanillaProjects";
+import ReactProjects from "./components/ReactProjects";
+import Freelance from "./components/Freelance";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <Route component={About} path="/about" />
         <Route component={Contact} path="/contact" />
         <Route component={Projects} path="/projects" />
-        <Route component={Vanilla} path="/project/vanillaJS" />
+        <Route component={Vanilla} exact path="/project/vanillaJS" />
+        <Route component={ReactProjects} path="/project/reactprojects" />
+        <Route component={Freelance} path="/project/freelance" />
       </Switch>
     </BrowserRouter>
   );

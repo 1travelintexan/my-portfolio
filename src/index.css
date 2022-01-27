@@ -12,9 +12,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 20px;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.489);
+  background-color: rgba(104, 103, 103, 0.489);
   border-radius: 10px;
 }
 .logos {
@@ -122,6 +122,7 @@
   justify-content: flex-start;
   flex-direction: column;
   color: aliceblue;
+  padding-bottom: 30px;
 }
 .contact-list {
   color: aliceblue;

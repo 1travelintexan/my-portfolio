@@ -10,17 +10,6 @@ function Vanilla() {
         className="absolute object-cover w-full h-full"
       />
       <div className="relative project">
-        <a href="https://1travelintexan.github.io/Rippin-Brah-/">
-          <h3>Rippin Brah!</h3>
-        </a>
-        <p>
-          Surfing game that is fun and addictive. One of my first projects, and
-          one that always brings a smile to my face, created with canvas and
-          using animation frame tools to simulate movement. Also has fun music
-          and great sound effects.
-        </p>
-      </div>
-      <div className="relative project">
         <a href="https://1travelintexan.github.io/Rock-Paper-Scissors/">
           <h3>Rock, Paper, Scissors</h3>
         </a>

@@ -17,31 +17,19 @@ class Projects extends Component {
         <section className="relative flex justify-center">
           <div className="projects-container">
             <div className="project">
-              <Link className="project-link" to="/project/vanillaJS">
-                Projects made with Vanilla Javascript
+              <Link className="project-link" to="/project/reactprojects">
+                -Bootcamp Projects
               </Link>
             </div>
             <div className="project">
-              <a href="https://lifes-a-beach.herokuapp.com/">
-                <h3>Life's a Beach</h3>
-              </a>
-              <p>
-                Joint effort APP with a partner, it is designed to help clients
-                budget for their dream vacation. Full MERN developed APP with
-                bootstrap styling. Enter your details and try it out!
-              </p>
+              <Link className="project-link" to="/project/vanillaJS">
+                -Fun projects for practice
+              </Link>
             </div>
             <div className="project">
-              <a href="https://kook-club.herokuapp.com/">
-                <h3>Kook Club</h3>
-              </a>
-              <p>
-                Fun APP that is designed for surfers to create events to meet up
-                and surf with friends. The goal is to increase socialization
-                between surfers and improve surf safety for new surfers. Styled
-                with bootstrap, created with React, Node, and Express. Deployed
-                through Heroku
-              </p>
+              <Link className="project-link" to="/project/freelance">
+                -Freelance Apps
+              </Link>
             </div>
           </div>
         </section>
