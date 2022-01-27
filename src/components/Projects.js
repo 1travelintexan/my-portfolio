@@ -18,17 +18,17 @@ class Projects extends Component {
           <div className="projects-container">
             <div className="project">
               <Link className="project-link" to="/project/reactprojects">
-                -Bootcamp Projects
+                <h3>-Bootcamp Projects</h3>
               </Link>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/vanillaJS">
-                -Fun projects for practice
+                <h3>-Fun projects for practice</h3>
               </Link>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/freelance">
-                -Freelance Apps
+                <h3>-Freelance Apps</h3>
               </Link>
             </div>
           </div>

@@ -17,19 +17,21 @@ class Home extends Component {
           alt="macbook"
           className="absolute object-cover w-full h-full"
         />
-        <section className="home relative flex items-start min-h-screen pb-15 px-8">
+        <section className="home relative flex items-start min-h-screen pb-15 ">
           <h1 className=" text-6xl text-blue-100 font-bold cursive mt-96 md:text-8xl md:mt-80">
             Joshua George
           </h1>
           <h5 className="slogan">Do your best and the rest will follow</h5>
-          <div className="logos-div">
-            <img src={jsImage} alt="js" className="logos relative" />
-            <img src={htmlImage} alt="html" className="logos relative" />
-            <img src={cssImage} alt="css" className="logos relative" />
-            <img src={reactImage} alt="react" className="logos relative" />
-            <img src={tsImage} alt="ts" className="logos relative" />
-            <img src={nodeImage} alt="node" className="logos relative" />
-            <img src={mongoImage} alt="mongo" className="logos relative" />
+          <div className="logos-container">
+            <div className="logos-div">
+              <img src={jsImage} alt="js" className="logos relative" />
+              <img src={htmlImage} alt="html" className="logos relative" />
+              <img src={cssImage} alt="css" className="logos relative" />
+              <img src={reactImage} alt="react" className="logos relative" />
+              <img src={tsImage} alt="ts" className="logos relative" />
+              <img src={nodeImage} alt="node" className="logos relative" />
+              <img src={mongoImage} alt="mongo" className="logos relative" />
+            </div>
           </div>
         </section>
       </main>
