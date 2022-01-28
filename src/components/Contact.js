@@ -10,6 +10,7 @@ class Contact extends Component {
           src={image}
           alt="macbook air"
           className="absolute object-cover w-full h-full"
+          loading="lazy"
         />
         <div className="contact-container">
           <section>

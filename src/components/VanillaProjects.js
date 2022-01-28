@@ -8,6 +8,7 @@ function Vanilla() {
         src={image}
         alt="macbook"
         className="absolute object-cover w-full h-full"
+        loading="lazy"
       />
       <div className="relative project">
         <a href="https://1travelintexan.github.io/Rock-Paper-Scissors/">

@@ -11,6 +11,7 @@ class About extends Component {
           src={image}
           alt="coding"
           className="absolute object-cover w-full h-full"
+          loading="lazy"
         />
         <div className="main-about">
           <h3 className="about-banner">A little about me...</h3>

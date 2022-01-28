@@ -8,6 +8,7 @@ function Freelance() {
         src={image}
         alt="macbook"
         className="absolute object-cover w-full h-full"
+        loading="lazy"
       />
       <div>
         <h1 className="relative">Some of my Freelance work</h1>

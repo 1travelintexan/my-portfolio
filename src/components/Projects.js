@@ -10,6 +10,7 @@ class Projects extends Component {
           src={image}
           alt="mac keyboard"
           className="absolute object-cover w-full h-full"
+          loading="lazy"
         />
         <div className="relative flex justify-center">
           <h3 className="projects-banner">Some of my handy work:</h3>
