@@ -20,7 +20,9 @@ class About extends Component {
               <img className="about-pics" src={image3} alt="Baby Ragnar!" />
             </div>
             <div className="about-paragraph">
-              <h5>-Junior Full-Stack Web Developer(MERN).</h5>
+              <h5 className="bigger-font">
+                -Junior Full-Stack Web Developer(MERN).
+              </h5>
               <h5>
                 -Native Texan, doing my best to learn and grow as a person and
                 as a developer.
@@ -31,8 +33,8 @@ class About extends Component {
                 coding career.
               </h5>
               <h5>
-                -I'm a recreational chess player and someone who loves puzzles
-                and solving problems.
+                -I'm a recreational chess player and a bit weird, I like puzzles
+                and solving complex problems.
               </h5>
             </div>
           </div>

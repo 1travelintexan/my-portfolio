@@ -19,16 +19,26 @@ class Projects extends Component {
             <div className="project">
               <Link className="project-link" to="/project/reactprojects">
                 <h3>-Bootcamp Projects</h3>
+                <h5 className="slogan">
+                  Three Projects I completed during my Ironhack bootcamp.
+                </h5>
               </Link>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/vanillaJS">
                 <h3>-Fun projects for practice</h3>
+                <h5 className="slogan">
+                  Some fun projects I did for practice, mostly from The Odin
+                  Project website.
+                </h5>
               </Link>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/freelance">
                 <h3>-Freelance Apps</h3>
+                <h5 className="slogan">
+                  Webpages that I completed for small businesses.{" "}
+                </h5>
               </Link>
             </div>
           </div>

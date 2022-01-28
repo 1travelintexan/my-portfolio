@@ -13,21 +13,28 @@
   flex-direction: column;
   color: aliceblue;
   padding-bottom: 30px;
+  margin-left: 20px;
 }
+
+.slogan {
+  font-size: 1.5rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .logos-container {
-  height: 80%;
   width: 100%;
   display: flex;
-  position: absolute;
   align-items: flex-end;
   justify-content: center;
 }
 .logos-div {
-  width: 100%;
+  width: 80vw;
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 20px;
+  margin: 40px 20px 0px 20px;
   padding: 10px;
   background-color: rgba(104, 103, 103, 0.489);
   border-radius: 10px;
@@ -72,13 +79,9 @@
   font-size: 2.5vw;
   color: rgb(252, 252, 252);
   text-shadow: 4px 4px 8px rgb(255, 0, 0);
+  padding: 10px;
 }
-.project-link {
-  font-size: 2.5vw;
-  padding: 5px;
-  color: rgb(252, 252, 252);
-  text-shadow: 4px 4px 8px rgb(255, 0, 0);
-}
+
 .project p {
   font-size: 1.2vw;
   margin-bottom: 20px;
@@ -161,8 +164,8 @@
   height: 20rem;
   margin: 20px;
   padding-bottom: 30px;
-  background-color: whitesmoke;
-  border: 6px solid whitesmoke;
+  background-color: rgb(250, 231, 213);
+  border: 6px solid rgb(250, 231, 213);
   box-shadow: 6px 6px 12px red;
 }
 .about-pic-and-paragraph {
@@ -184,6 +187,9 @@
 .about-paragraph h5 {
   margin-bottom: 10px;
 }
+.bigger-font {
+  font-size: 3rem;
+}
 
 .project h3:hover {
   text-shadow: 4px 4px 8px rgb(177, 177, 177);
@@ -191,9 +197,11 @@
 .contact-list h3:hover {
   text-shadow: 6px 6px 8px rgb(204, 1, 1);
 }
+
 .project-link h3:hover {
   border: 2px solid white;
   border-radius: 10px;
+  padding: 10px;
   text-shadow: 0px 0px 10px rgb(248, 246, 255);
 }
 
