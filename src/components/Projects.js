@@ -27,10 +27,9 @@ class Projects extends Component {
             </div>
             <div className="project">
               <Link className="project-link" to="/project/vanillaJS">
-                <h3>-Fun projects for practice</h3>
+                <h3>-Practice Projects</h3>
                 <h5 className="slogan">
-                  Some fun projects I did for practice, mostly from The Odin
-                  Project website.
+                  Some fun projects I did for practice, with vanilla Javascript.
                 </h5>
               </Link>
             </div>
