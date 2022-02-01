@@ -159,8 +159,8 @@
 }
 .about-pics {
   position: relative;
-  height: 20rem;
-  margin: 20px;
+  height: 15rem;
+  margin: 10px;
   padding-bottom: 30px;
   background-color: rgb(250, 231, 213);
   border: 6px solid rgb(250, 231, 213);
@@ -176,11 +176,11 @@
 .about-paragraph {
   position: relative;
   width: 60%;
-  padding: 30px;
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.568);
   color: rgb(209, 247, 247);
   border-radius: 40px;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .about-paragraph h5 {
   margin-bottom: 10px;
