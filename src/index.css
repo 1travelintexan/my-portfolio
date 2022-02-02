@@ -76,12 +76,13 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .project h3 {
+  width: fit-content;
   font-size: 2.5vw;
   color: rgb(252, 252, 252);
   text-shadow: 4px 4px 8px rgb(255, 0, 0);
   padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0);
 }
-
 .project p {
   font-size: 1.2vw;
   margin-bottom: 20px;
@@ -189,13 +190,9 @@
   font-size: 3rem;
 }
 
-.project h3:hover {
-  text-shadow: 4px 4px 8px rgb(177, 177, 177);
-}
 .contact-list h3:hover {
   text-shadow: 6px 6px 8px rgb(204, 1, 1);
 }
-
 .project-link h3:hover {
   border: 2px solid white;
   border-radius: 10px;
