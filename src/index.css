@@ -19,6 +19,7 @@
 .slogan {
   font-size: 1.5rem;
   color: white;
+  padding-left: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -60,7 +61,6 @@
 .projects-container {
   position: relative;
   width: 90%;
-  height: 60vh;
   background-color: rgba(0, 0, 0, 0.795);
   color: rgb(209, 247, 247);
   border-radius: 20px;
@@ -93,7 +93,7 @@
   border-radius: 20px;
   color: rgb(223, 230, 230);
   text-shadow: 3px 3px 6px red;
-  font-size: 3vw;
+  font-size: 4vw;
   font-family: fantasy;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.795);
@@ -160,13 +160,19 @@
 }
 .about-pics {
   position: relative;
-  height: 15rem;
-  margin: 10px;
+  height: 18rem;
+  width: 18rem;
+  margin: 30px;
   padding-bottom: 30px;
   background-color: rgb(250, 231, 213);
   border: 6px solid rgb(250, 231, 213);
-  box-shadow: 6px 6px 12px red;
+  box-shadow: 6px 6px 12px rgb(0, 0, 0);
 }
+
+.about-pic-offset {
+  margin-left: 60px;
+}
+
 .about-pic-and-paragraph {
   width: 100%;
   margin-top: 20px;
@@ -181,10 +187,10 @@
   background-color: rgba(0, 0, 0, 0.568);
   color: rgb(209, 247, 247);
   border-radius: 40px;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .about-paragraph h5 {
-  margin-bottom: 10px;
+  padding: 10px;
 }
 .bigger-font {
   font-size: 3rem;
@@ -193,7 +199,15 @@
 .contact-list h3:hover {
   text-shadow: 6px 6px 8px rgb(204, 1, 1);
 }
+
 .project-link h3:hover {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  text-shadow: 0px 0px 10px rgb(248, 246, 255);
+}
+
+.project h3:hover {
   border: 2px solid white;
   border-radius: 10px;
   padding: 10px;

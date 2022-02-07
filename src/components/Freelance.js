@@ -4,26 +4,38 @@ import image from "../images/macbookAirPic.jpeg";
 function Freelance() {
   return (
     <div>
-      <img
-        src={image}
-        alt="macbook"
-        className="absolute object-cover w-full h-full"
-        loading="lazy"
-      />
       <div>
-        <h1 className="relative">Some of my Freelance work</h1>
-        <div className="relative project">
-          <a href="https://oliguinco.netlify.app/">
-            <h3>The Olguin Co.</h3>
-          </a>
-          <p>Freelance project for a T-shirt start-up company</p>
+        <img
+          src={image}
+          alt="macbook"
+          className="absolute object-cover w-full h-full"
+          loading="lazy"
+        />
+        <div className="relative flex justify-center">
+          <h3 className="projects-banner">Freelance Sites</h3>
         </div>
-        <div className="relative project">
-          <a href="https://massage-by-solange.netlify.app">
-            <h3>Solange the Massage therapist</h3>
-          </a>
-          <p>Webpage for a local Masseuse</p>
-        </div>
+        <section className="relative flex justify-center">
+          <div className="projects-container">
+            <div className="project">
+              <a href="https://oliguinco.netlify.app/">
+                <h3>The Olguin Co.</h3>
+              </a>
+              <h5 className="slogan">
+                Freelance project for a T-shirt start-up company and Deployed
+                with Netlify.
+              </h5>
+            </div>
+            <div className="project">
+              <a href="https://massage-by-solange.netlify.app">
+                <h3>Solange the Massage Therapist</h3>
+              </a>
+              <h5 className="slogan">
+                Webpage for a Portuguese Masseuse, to help get in contact with
+                clients and handle common questions associated with her company.
+              </h5>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );

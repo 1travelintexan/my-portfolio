@@ -18,7 +18,11 @@ class About extends Component {
           <div className="about-pic-and-paragraph">
             <div>
               <img className="about-pics" src={image2} alt="personal" />
-              <img className="about-pics" src={image3} alt="Baby Ragnar!" />
+              <img
+                className="about-pics about-pic-offset"
+                src={image3}
+                alt="Baby Ragnar!"
+              />
             </div>
             <div className="about-paragraph">
               <h5 className="bigger-font">

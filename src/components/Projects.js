@@ -22,15 +22,26 @@ class Projects extends Component {
                 <h3>-Bootcamp Projects</h3>
               </Link>
               <h5 className="slogan">
-                Three Projects I completed during my Ironhack bootcamp.
+                My very first 3 Projects that I completed during my Full-Stack
+                boot camp with Ironhack.
+              </h5>
+            </div>
+            <div className="project">
+              <Link className="project-link" to="/project/TSprojects">
+                <h3>-Typescript Projects</h3>
+              </Link>
+              <h5 className="slogan">
+                Some Typescript practice projects to get more familiar with the
+                syntax.
               </h5>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/vanillaJS">
-                <h3>-Practice Projects</h3>
+                <h3>-Practice HTML</h3>
               </Link>
               <h5 className="slogan">
-                Some fun projects I did for practice, with vanilla Javascript.
+                Some fun projects I did with vanilla Javascript (games and cool
+                retro ideas).
               </h5>
             </div>
             <div className="project">
@@ -38,7 +49,7 @@ class Projects extends Component {
                 <h3>-Freelance Apps</h3>
               </Link>
               <h5 className="slogan">
-                Webpages that I completed for small businesses.{" "}
+                Webpages that I completed for random small businesses.{" "}
               </h5>
             </div>
           </div>
