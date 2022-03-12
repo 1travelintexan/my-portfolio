@@ -1,15 +1,22 @@
 import React, { Component } from "react";
 import { SocialIcon } from "react-social-icons";
-import image from "../images/dark-world.jpeg";
+import backgroundImage from "../images/dark-world.jpeg";
+import htmlImage from "../images/html.png";
+import cssImage from "../images/css.png";
+import jsImage from "../images/js.png";
+import nodeImage from "../images/node.png";
+import reactImage from "../images/react.png";
+import tsImage from "../images/ts.png";
+import mongoImage from "../images/mongoDB.png";
 
 class Contact extends Component {
   render() {
     return (
       <main>
         <img
-          src={image}
+          src={backgroundImage}
           alt="macbook air"
-          className="absolute object-cover w-full h-full"
+          className="background"
           loading="lazy"
         />
         <div className="contact-container">
@@ -65,6 +72,52 @@ class Contact extends Component {
               target="_blank"
               fgColor="#fff"
               style={{ height: 65, width: 65 }}
+            />
+          </div>
+        </div>
+        <div className="logos-container">
+          <div className="logos-div">
+            <img
+              src={jsImage}
+              alt="js"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={htmlImage}
+              alt="html"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={cssImage}
+              alt="css"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={reactImage}
+              alt="react"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={tsImage}
+              alt="ts"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={nodeImage}
+              alt="node"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={mongoImage}
+              alt="mongo"
+              className="logos relative"
+              loading="lazy"
             />
           </div>
         </div>

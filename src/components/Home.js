@@ -12,64 +12,59 @@ class Home extends Component {
   render() {
     return (
       <main>
-        <img
-          src={image}
-          alt="macbook"
-          className="absolute object-cover w-full h-full"
-          loading="lazy"
-        />
+        <img src={image} alt="macbook" className=" background" loading="lazy" />
         <section className="home relative flex items-start min-h-screen pb-15 ">
           <h1 className=" text-6xl text-blue-100 font-bold cursive mt-96 md:text-8xl md:mt-80">
             Joshua George
           </h1>
           <h5 className="slogan">Do your best and the rest will follow</h5>
-          <div className="logos-container">
-            <div className="logos-div">
-              <img
-                src={jsImage}
-                alt="js"
-                className="logos relative"
-                loading="lazy"
-              />
-              <img
-                src={htmlImage}
-                alt="html"
-                className="logos relative"
-                loading="lazy"
-              />
-              <img
-                src={cssImage}
-                alt="css"
-                className="logos relative"
-                loading="lazy"
-              />
-              <img
-                src={reactImage}
-                alt="react"
-                className="logos relative"
-                loading="lazy"
-              />
-              <img
-                src={tsImage}
-                alt="ts"
-                className="logos relative"
-                loading="lazy"
-              />
-              <img
-                src={nodeImage}
-                alt="node"
-                className="logos relative"
-                loading="lazy"
-              />
-              <img
-                src={mongoImage}
-                alt="mongo"
-                className="logos relative"
-                loading="lazy"
-              />
-            </div>
-          </div>
         </section>
+        <div className="logos-container">
+          <div className="logos-div">
+            <img
+              src={jsImage}
+              alt="js"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={htmlImage}
+              alt="html"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={cssImage}
+              alt="css"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={reactImage}
+              alt="react"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={tsImage}
+              alt="ts"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={nodeImage}
+              alt="node"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={mongoImage}
+              alt="mongo"
+              className="logos relative"
+              loading="lazy"
+            />
+          </div>
+        </div>
       </main>
     );
   }

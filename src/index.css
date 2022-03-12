@@ -1,11 +1,25 @@
 @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-
+body {
+  overflow: hidden;
+}
 .cursive {
   font-family: "Amatic SC", cursive;
   font-weight: 700;
 }
+
+.background {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+}
+
 .home {
   position: flex;
   align-items: flex-start;
@@ -24,6 +38,9 @@
 }
 
 .logos-container {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
   width: 100%;
   display: flex;
   align-items: flex-end;
@@ -36,7 +53,7 @@
   justify-content: space-around;
   align-items: center;
   margin: 40px 20px 0px 20px;
-  padding: 10px;
+  padding: 20px;
   background-color: rgba(104, 103, 103, 0.489);
   border-radius: 10px;
 }
@@ -141,6 +158,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 .main-about {
