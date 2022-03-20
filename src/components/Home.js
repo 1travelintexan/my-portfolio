@@ -13,8 +13,8 @@ class Home extends Component {
     return (
       <main>
         <img src={image} alt="macbook" className=" background" loading="lazy" />
-        <section className="home relative flex items-start min-h-screen pb-15 ">
-          <h1 className=" text-6xl text-blue-100 font-bold cursive mt-96 md:text-8xl md:mt-80">
+        <section className="home">
+          <h1 className=" text-6xl text-blue-100 font-bold cursive">
             Joshua George
           </h1>
           <h5 className="slogan">Do your best and the rest will follow</h5>
