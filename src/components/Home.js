@@ -10,6 +10,17 @@ import mongoImage from "../images/mongoDB.png";
 
 class Home extends Component {
   render() {
+    let randomQuote = "";
+    let author = "";
+    const apiget = async () => {
+      let fetchResponse = await fetch("https://type.fit/api/quotes");
+      let data = await fetchResponse.json();
+      let randomQuoteIndex = Math.floor(Math.random() * data.length);
+      randomQuote = data[randomQuoteIndex].text;
+      author = data[randomQuoteIndex].author;
+      console.log("quote new", randomQuote, author);
+    };
+    apiget();
     return (
       <main>
         <img src={image} alt="macbook" className=" background" loading="lazy" />
