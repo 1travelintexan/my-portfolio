@@ -29,17 +29,17 @@ class About extends Component {
                 -Junior Full-Stack Web Developer(MERN).
               </h5>
               <h5>
-                -Native Texan, doing my best to learn and grow as a person and
-                as a developer.
+                -Native Texan and former CnC Machine Programmer, I made my
+                career change during the pandemic to tech. Tech is the future
+                and it is something I am excited about learning.
               </h5>
               <h5>
-                -Avid surfer, dive master and dog lover. I try to bring the same
-                wonder, curiosity, and awe from my life in the ocean to my
-                coding career.
+                -Dog lover, avid surfer, dive master, and chess player. That
+                sums me up perfectly, and in the correct order as well
               </h5>
               <h5>
-                -I'm a recreational chess player and a bit weird, I like puzzles
-                and solving complex problems.
+                -I am doing my best to learn and grow everyday, as a person and
+                as a developer. This is such an exciting time to be alive!
               </h5>
             </div>
           </div>
