@@ -80,6 +80,7 @@ main {
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .slogan {
@@ -407,5 +408,15 @@ main {
   }
   #neon {
     font-size: 1.5rem;
+  }
+
+  .home-banner {
+    font-size: 2rem;
+  }
+  .quote-div h5 {
+    font-size: 1.5rem;
+  }
+  .quote-div h6 {
+    font-size: 1rem;
   }
 }
