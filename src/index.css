@@ -5,6 +5,13 @@ body {
   margin: 0;
   padding: 0;
 }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 #cursive {
   font-family: "Amatic SC", cursive;
   font-weight: 700;
@@ -25,9 +32,6 @@ body {
   box-shadow: 0 0 30px red;
 }
 
-.nav {
-}
-
 .background {
   position: absolute;
   top: 0;
@@ -38,15 +42,44 @@ body {
   z-index: -100;
 }
 
-.home {
-  position: relative;
+.quote-container {
+  width: 100%;
+  height: 80vh;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  color: aliceblue;
-  margin: 0px 0px 30px 20px;
-  height: 40vh;
+}
+
+.quote-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.783);
+  border-radius: 20px;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.quote-div h5 {
+  color: red;
+  text-shadow: 0 0 10px rgb(254, 3, 3);
+  font-size: 2rem;
+}
+.quote-div h6 {
+  color: red;
+  font-size: 1.2rem;
+  text-shadow: 0 0 10px rgb(254, 3, 3);
+}
+.home-banner {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  background-color: #111;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .slogan {
@@ -75,7 +108,7 @@ body {
   align-items: center;
   margin: 40px 20px 0px 20px;
   padding: 20px;
-  background-color: rgba(104, 103, 103, 0.489);
+  background-color: rgba(62, 62, 62, 0.627);
   border-radius: 10px;
 }
 .logos {
