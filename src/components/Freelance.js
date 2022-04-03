@@ -21,18 +21,14 @@ function Freelance() {
                 <h3>The Olguin Co.</h3>
               </a>
               <h5 className="slogan">
-                Freelance project for a T-shirt start-up company and Deployed
-                with Netlify.
+                Webpage for a local T-shirt start-up company.
               </h5>
             </div>
             <div className="project">
               <a href="https://massage-by-solange.netlify.app">
                 <h3>Solange the Massage Therapist</h3>
               </a>
-              <h5 className="slogan">
-                Webpage for a Portuguese Masseuse, to help get in contact with
-                clients and handle common questions associated with her company.
-              </h5>
+              <h5 className="slogan">Webpage for a Portuguese Masseuse.</h5>
             </div>
           </div>
         </section>

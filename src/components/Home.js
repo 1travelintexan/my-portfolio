@@ -25,9 +25,6 @@ class Home extends Component {
       <main>
         <img src={image} alt="macbook" className=" background" loading="lazy" />
         <section className="home">
-          <h1 className=" text-6xl text-blue-100 font-bold cursive">
-            Joshua George
-          </h1>
           <h5 className="slogan">Do your best and the rest will follow</h5>
         </section>
         <div className="logos-container">

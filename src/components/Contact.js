@@ -9,20 +9,25 @@ class Contact extends Component {
         <img
           src={backgroundImage}
           alt="macbook air"
-          className="background"
+          className="background about-background"
           loading="lazy"
         />
         <div className="contact-container">
-          <section>
-            <h1 className="font-bold cursive contact-name">Joshua George</h1>
-          </section>
           <div className="contact-list">
             <ul>
               <li>
-                <a href="mailto:horheyinc8@gmail.com">Horheyinc8@gmail.com</a>
+                Email:{" "}
+                <li>
+                  <a href="mailto:horheyinc8@gmail.com">Horheyinc8@gmail.com</a>
+                </li>
               </li>
-              <li>WhatsApp: +351 912 511 379 </li>
-              <li>Location: Conroe, TX</li>
+              <li>
+                WhatsApp:
+                <li>+351 912 511 379 </li>
+              </li>
+              <li>
+                <li>Location:</li> Conroe, TX
+              </li>
             </ul>
           </div>
         </div>

@@ -9,7 +9,7 @@ class Projects extends Component {
         <img
           src={image}
           alt="mac keyboard"
-          className="absolute object-cover w-full h-full"
+          className="background about-background"
           loading="lazy"
         />
         <div className="relative flex justify-center">
@@ -21,36 +21,25 @@ class Projects extends Component {
               <Link className="project-link" to="/project/reactprojects">
                 <h3>-Bootcamp Projects</h3>
               </Link>
-              <h5 className="slogan">
-                My very first 3 Projects that I completed during my Full-Stack
-                boot camp with Ironhack.
-              </h5>
+              <h5 className="slogan">My first 3 Projects</h5>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/TSprojects">
                 <h3>-Typescript Projects</h3>
               </Link>
-              <h5 className="slogan">
-                Some Typescript practice projects to get more familiar with the
-                syntax.
-              </h5>
+              <h5 className="slogan">Typescript practice projects</h5>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/vanillaJS">
                 <h3>-Practice HTML</h3>
               </Link>
-              <h5 className="slogan">
-                Some fun projects I did with vanilla Javascript (games and cool
-                retro ideas).
-              </h5>
+              <h5 className="slogan">Vanilla Javascript fun projects</h5>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/freelance">
                 <h3>-Freelance Apps</h3>
               </Link>
-              <h5 className="slogan">
-                Webpages that I completed for random small businesses.{" "}
-              </h5>
+              <h5 className="slogan">Small businesses webpages</h5>
             </div>
           </div>
         </section>

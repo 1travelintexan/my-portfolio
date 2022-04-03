@@ -10,7 +10,7 @@ class About extends Component {
         <img
           src={image}
           alt="coding"
-          className="absolute object-cover w-full h-full"
+          className="background about-background"
           loading="lazy"
         />
         <div className="main-about">
@@ -26,21 +26,22 @@ class About extends Component {
             </div>
             <div className="about-paragraph">
               <h5 className="bigger-font">
-                -Junior Full-Stack Web Developer(MERN).
+                Junior Full-Stack Web Developer(MERN)
               </h5>
-              <h5>
+              <h4>
                 -Native Texan and former CnC Machine Programmer, I made my
                 career change during the pandemic to tech. Tech is the future
                 and it is something I am excited about learning.
-              </h5>
-              <h5>
+              </h4>
+              <h4>
                 -Dog lover, avid surfer, dive master, and chess player. That
-                sums me up perfectly, and in the correct order as well
-              </h5>
-              <h5>
+                sums me up perfectly, and it is in the correct order of
+                importance to me ;)
+              </h4>
+              <h4>
                 -I am doing my best to learn and grow everyday, as a person and
                 as a developer. This is such an exciting time to be alive!
-              </h5>
+              </h4>
             </div>
           </div>
         </div>
