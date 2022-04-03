@@ -16,8 +16,8 @@ main {
   font-family: "Amatic SC", cursive;
   font-weight: 700;
   font-size: 2.5rem;
-  color: #fe111d;
-  text-shadow: 0 0 15px #fe111d;
+  color: #11fe3c;
+  text-shadow: 0 0 15px #11fe3c;
   margin-right: 20px;
 }
 
@@ -27,9 +27,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 8px solid red;
+  border-bottom: 8px solid #11fe3c;
   background-color: rgb(17, 16, 16);
-  box-shadow: 0 0 30px red;
+  box-shadow: 0 0 30px #11fe3c;
 }
 
 .background {
@@ -64,14 +64,14 @@ main {
 }
 
 .quote-div h5 {
-  color: red;
-  text-shadow: 0 0 10px rgb(254, 3, 3);
+  color: #11fe3c;
+  text-shadow: 0 0 10px #11fe3c;
   font-size: 2rem;
 }
 .quote-div h6 {
-  color: red;
+  color: #11fe3c;
   font-size: 1.2rem;
-  text-shadow: 0 0 10px rgb(254, 3, 3);
+  text-shadow: 0 0 10px #11fe3c;
 }
 .home-banner {
   font-size: 3rem;
