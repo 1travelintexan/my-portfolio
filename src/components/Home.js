@@ -3,7 +3,7 @@ import image from "../images/mac.jpeg";
 import htmlImage from "../images/html.png";
 import cssImage from "../images/css.png";
 import jsImage from "../images/js.png";
-import nodeImage from "../images/node.png";
+import nodeImage from "../images/nodeJsLogo.png";
 import reactImage from "../images/react.png";
 import tsImage from "../images/ts.png";
 import mongoImage from "../images/mongoDB.png";
