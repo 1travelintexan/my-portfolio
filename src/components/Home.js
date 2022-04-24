@@ -7,6 +7,7 @@ import nodeImage from "../images/nodeJsLogo.png";
 import reactImage from "../images/react.png";
 import tsImage from "../images/ts.png";
 import mongoImage from "../images/mongoDB.png";
+import { Button } from "bootstrap";
 
 function Home() {
   const [quote, setQuote] = useState({ quote: "", author: "" });
@@ -44,11 +45,16 @@ function Home() {
         <section className="quote-div">
           <h5 className="quote">{quote.quote}</h5>
           <h6>-{quote.author}</h6>
-          <h3 id="neon" onClick={handleQuote}>
+          <h3 id="quote-btn" onClick={handleQuote}>
             New Quote
           </h3>
         </section>
+        {/* <div id="game-btn">
+          <h3>Have time for a quick game?</h3>
+          <button id="play-btn">Play</button>
+        </div> */}
       </div>
+
       <div className="logos-container">
         <div className="logos-div">
           <img

@@ -21,6 +21,22 @@ main {
   margin-right: 20px;
 }
 
+#game-btn {
+  width: 50%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(0, 245, 57);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(5, 5, 5, 0.541);
+}
+#game-btn h3 {
+  font-size: 2rem;
+  color: #00ff08;
+}
+
 .nav-bar {
   width: 100%;
   padding: 5px;
@@ -93,8 +109,6 @@ main {
 .logos-container {
   position: absolute;
   bottom: 0;
-  left: 0;
-  margin: 0;
   width: 100%;
   display: flex;
   align-items: flex-end;
@@ -127,6 +141,7 @@ main {
   margin-right: auto;
   border-radius: 5px;
 }
+
 .projects-container {
   position: relative;
   width: 90%;
@@ -140,10 +155,12 @@ main {
   margin: 10px;
   padding: 20px;
 }
+
 .link {
   color: blue;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+
 .project h3 {
   width: fit-content;
   font-size: 2.5vw;
@@ -152,10 +169,12 @@ main {
   padding: 10px;
   border: 2px solid rgba(255, 255, 255, 0);
 }
+
 .project p {
   font-size: 1.2vw;
   margin-bottom: 20px;
 }
+
 .projects-banner {
   margin: 10px;
   padding: 10px;
@@ -167,6 +186,7 @@ main {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.795);
 }
+
 .contact-container {
   position: relative;
 }
@@ -178,11 +198,13 @@ main {
   text-shadow: 4px 4px 4px rgb(8, 126, 223);
   font-size: 4rem;
 } */
+
 .contact-list {
   color: aliceblue;
   margin: 10px 20px 10px 40px;
   font-size: 1.7rem;
 }
+
 .contact-banner {
   position: relative;
   padding-top: 10px;
@@ -195,6 +217,7 @@ main {
   font-size: 4vw;
   text-align: center;
 }
+
 .contact-buttons-container {
   width: 100%;
   height: 30%;
@@ -203,6 +226,7 @@ main {
   justify-content: flex-end;
   flex-direction: column;
 }
+
 .contact-icons {
   width: 100%;
   position: relative;
@@ -220,6 +244,7 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
 .about-banner {
   margin-top: 10px;
   color: rgb(223, 230, 230);
@@ -228,6 +253,7 @@ main {
   font-family: fantasy;
   text-align: center;
 }
+
 .about-pics {
   position: relative;
   height: 12rem;
@@ -261,9 +287,11 @@ main {
   border-radius: 40px;
   font-size: 1.5rem;
 }
+
 .about-paragraph h4 {
   padding: 5px;
 }
+
 .bigger-font {
   font-size: 2rem;
   text-align: center;
@@ -298,6 +326,43 @@ main {
   overflow: hidden;
   transition: 0.5s;
 }
+
+#quote-btn {
+  position: relative;
+  padding: 10px 10px;
+  margin: 10px 15px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid #fe111d;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+#play-btn {
+  position: relative;
+  padding: 5px 10px;
+  margin: 10px 15px;
+  color: white;
+  border: 1px solid greenyellow;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+#play-btn:hover {
+  background: #77ff00;
+  color: #111;
+  box-shadow: 0 0 50px #77ff00;
+}
+
+#quote-btn:hover {
+  background: #fe111d;
+  color: #111;
+  box-shadow: 0 0 50px #fe111d;
+}
+
 #neon:hover {
   background: #fe111d;
   color: #111;
