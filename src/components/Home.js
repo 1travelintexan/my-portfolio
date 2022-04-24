@@ -7,10 +7,11 @@ import nodeImage from "../images/nodeJsLogo.png";
 import reactImage from "../images/react.png";
 import tsImage from "../images/ts.png";
 import mongoImage from "../images/mongoDB.png";
-import { Button } from "bootstrap";
+// import Game from "./Game";
 
 function Home() {
   const [quote, setQuote] = useState({ quote: "", author: "" });
+  const [showGame, setShowGame] = useState(false);
 
   useEffect(() => {
     const apiget = async () => {
@@ -36,6 +37,9 @@ function Home() {
     });
   }
 
+  const handleShowGame = () => {
+    setShowGame(!showGame);
+  };
   return (
     <main>
       <img src={image} alt="macbook" className=" background" loading="lazy" />
@@ -49,58 +53,62 @@ function Home() {
             New Quote
           </h3>
         </section>
-        {/* <div id="game-btn">
+        <div id="game-btn">
           <h3>Have time for a quick game?</h3>
-          <button id="play-btn">Play</button>
-        </div> */}
-      </div>
-
-      <div className="logos-container">
-        <div className="logos-div">
-          <img
-            src={jsImage}
-            alt="js"
-            className="logos relative"
-            loading="lazy"
-          />
-          <img
-            src={htmlImage}
-            alt="html"
-            className="logos relative"
-            loading="lazy"
-          />
-          <img
-            src={cssImage}
-            alt="css"
-            className="logos relative"
-            loading="lazy"
-          />
-          <img
-            src={reactImage}
-            alt="react"
-            className="logos relative"
-            loading="lazy"
-          />
-          <img
-            src={tsImage}
-            alt="ts"
-            className="logos relative"
-            loading="lazy"
-          />
-          <img
-            src={nodeImage}
-            alt="node"
-            className="logos relative"
-            loading="lazy"
-          />
-          <img
-            src={mongoImage}
-            alt="mongo"
-            className="logos relative"
-            loading="lazy"
-          />
+          <button id="play-btn" onClick={handleShowGame}>
+            Play
+          </button>
         </div>
       </div>
+      {showGame == false ? (
+        <div className="logos-container">
+          <div className="logos-div">
+            <img
+              src={jsImage}
+              alt="js"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={htmlImage}
+              alt="html"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={cssImage}
+              alt="css"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={reactImage}
+              alt="react"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={tsImage}
+              alt="ts"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={nodeImage}
+              alt="node"
+              className="logos relative"
+              loading="lazy"
+            />
+            <img
+              src={mongoImage}
+              alt="mongo"
+              className="logos relative"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      ) : null}
+      {/* <Game /> */}
     </main>
   );
 }

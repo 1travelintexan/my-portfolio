@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class NavBar extends Component {
   render() {
@@ -13,33 +13,28 @@ class NavBar extends Component {
         className="nav-bar"
       >
         <Container>
-          <NavLink to="/" id="cursive">
+          <Nav.Link as={Link} to="/" id="cursive">
             {" "}
             Joshua George
-          </NavLink>
+          </Nav.Link>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link>
-                <NavLink to="/" id="neon">
-                  Home
-                </NavLink>
+              <Nav.Link as={Link} to="/" id="neon">
+                Home
               </Nav.Link>
-              <Nav.Link>
-                <NavLink to="/projects" id="neon">
-                  Projects
-                </NavLink>
+
+              <Nav.Link as={Link} to="/projects" id="neon">
+                Projects
               </Nav.Link>
-              <Nav.Link>
-                <NavLink to="/about" id="neon">
-                  About Me
-                </NavLink>
+
+              <Nav.Link as={Link} to="/about" id="neon">
+                About Me
               </Nav.Link>
-              <Nav.Link>
-                <NavLink to="/contact" id="neon">
-                  Contact
-                </NavLink>
+
+              <Nav.Link as={Link} to="/contact" id="neon">
+                Contact
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
