@@ -60,7 +60,7 @@ function Home() {
           </button>
         </div>
       </div>
-      {showGame == false ? (
+      {showGame === false ? (
         <div className="logos-container">
           <div className="logos-div">
             <img

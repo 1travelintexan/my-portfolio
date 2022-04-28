@@ -321,28 +321,84 @@ main {
   text-shadow: 0px 0px 10px rgb(248, 246, 255);
 }
 
-#neon {
-  position: relative;
-  padding: 10px 10px;
-  margin: 10px 15px;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  overflow: hidden;
-  transition: 0.5s;
-}
-
 #quote-btn {
   position: relative;
-  padding: 10px 10px;
-  margin: 10px 15px;
+  padding: 10px;
+  margin: 30px 0px 10px 0px;
   color: white;
+  background-color: #111;
+  font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border: 1px solid #fe111d;
-  overflow: hidden;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  z-index: 0;
+  cursor: pointer;
   transition: 0.5s;
 }
+#quote-btn:before {
+  content: "";
+  background: linear-gradient(
+    135deg,
+    #fd1d1d,
+    #d62976,
+    #fa7e1e,
+    #feda75,
+    #48ff00,
+    #00ffd5,
+    #4f5bd5,
+    #7a00ff,
+    #962fbf,
+    #ff0000
+  );
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(15px);
+  width: 110%;
+  height: 110%;
+  animation: moving-gradient 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+#quote-btn:active {
+  color: #000;
+}
+#quote-btn:active:after {
+  opacity: 0;
+}
+#quote-btn:hover:before {
+  opacity: 1;
+}
+#quote-btn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+}
+@keyframes moving-gradient {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+/* #quote-btn:hover {
+  background: #fe111d;
+  color: #111;
+  box-shadow: 0 0 50px #fe111d;
+} */
 
 #play-btn {
   position: relative;
@@ -362,12 +418,16 @@ main {
   box-shadow: 0 0 50px #77ff00;
 }
 
-#quote-btn:hover {
-  background: #fe111d;
-  color: #111;
-  box-shadow: 0 0 50px #fe111d;
+#neon {
+  position: relative;
+  padding: 10px 10px;
+  margin: 10px 15px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  overflow: hidden;
+  transition: 0.5s;
 }
-
 #neon:hover {
   background: #fe111d;
   color: #111;
