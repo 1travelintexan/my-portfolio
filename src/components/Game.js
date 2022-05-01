@@ -1,30 +1,46 @@
-// import React from "react";
-// import Sketch from "react-p5";
+import { useEffect, useRef } from "react";
+import p5 from "p5";
+import background from "../images/houseBG.jpeg";
+import dadImage from "../images/dad.png";
 
-// function Game() {
-//   let a = 300;
-//   let b = 300;
-//   let bg;
-//   let dad;
+let bg;
+let dad;
+let tableX;
+let tableY;
+function sketch(p) {
+  // p is a reference to the p5 instance this sketch is attached to
+  p.setup = function () {
+    bg = p.loadImage(background);
+    dad = p.loadImage(dadImage);
+    p.createCanvas(window.innerWidth, window.innerHeight * 0.2).parent("game");
+    tableX = p.width - 100;
+    tableY = p.height - 50;
+  };
 
-//   let setup = (p5, parent) => {
-//     bg = p5.loadImage("../images/houseBG.jpeg");
-//     dad = p5.loadImage("../images/dad.png");
-//     let canvas = p5.createCanvas(p5.windowWidth, 200).parent(parent);
-//     let x = 0;
-//     let y = p5.windowHeight - p5.height;
-//     canvas.position(x, y);
-//     p5.image(dad, 20, 40, 100, 100);
-//   };
-//   let draw = (p5) => {
-//     p5.background("grey");
-//     p5.image(dad, 100, 100);
-//   };
-//   return (
-//     <div className="game">
-//       <Sketch setup={setup} draw={draw} />
-//     </div>
-//   );
-// }
+  p.draw = function () {
+    p.background(bg);
+    p.image(dad, 50, 50);
+    p.circle(40, p.height - 50, 40);
+    p.rect(tableX, tableY, 200, 50);
+    tableX = tableX - 1;
+  };
+}
 
-// export default Game;
+function Game() {
+  // create a reference to the container in which the p5 instance should place the canvas
+  const p5ContainerRef = useRef();
+
+  useEffect(() => {
+    // On component creation, instantiate a p5 object with the sketch and container reference
+    const p5Instance = new p5(sketch, p5ContainerRef.current);
+
+    // On component destruction, delete the p5 instance
+    return () => {
+      p5Instance.remove();
+    };
+  }, []);
+
+  return <div className="game" ref={p5ContainerRef} />;
+}
+
+export default Game;

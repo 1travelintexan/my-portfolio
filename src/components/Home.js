@@ -7,6 +7,7 @@ import nodeImage from "../images/nodeJsLogo.png";
 import reactImage from "../images/react.png";
 import tsImage from "../images/ts.png";
 import mongoImage from "../images/mongoDB.png";
+import Game from "./Game";
 // import Game from "./Game";
 
 function Home() {
@@ -107,8 +108,11 @@ function Home() {
             />
           </div>
         </div>
-      ) : null}
-      {/* <Game /> */}
+      ) : (
+        <div id="game">
+          <Game />
+        </div>
+      )}
     </main>
   );
 }
