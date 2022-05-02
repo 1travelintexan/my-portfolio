@@ -5,6 +5,8 @@ import dadImage from "../images/dad.png";
 
 let bg;
 let dad;
+let dadSize = 130;
+let dadY;
 let tableX;
 let tableY;
 function sketch(p) {
@@ -12,15 +14,17 @@ function sketch(p) {
   p.setup = function () {
     bg = p.loadImage(background);
     dad = p.loadImage(dadImage);
-    p.createCanvas(window.innerWidth, window.innerHeight * 0.2).parent("game");
+    p.createCanvas(window.innerWidth, window.innerHeight * 0.35).parent(
+      "game-container"
+    );
     tableX = p.width - 100;
     tableY = p.height - 50;
+    dadY = p.height - dadSize;
   };
 
   p.draw = function () {
     p.background(bg);
-    p.image(dad, 50, 50);
-    p.circle(40, p.height - 50, 40);
+    p.image(dad, 50, dadY, dadSize, dadSize);
     p.rect(tableX, tableY, 200, 50);
     tableX = tableX - 1;
   };

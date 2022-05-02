@@ -13,33 +13,14 @@ main {
   flex-direction: column;
 }
 
-.game {
-  z-index: 200;
-}
-
-#cursive {
-  font-family: "Amatic SC", cursive;
-  font-weight: 700;
-  font-size: 2.5rem;
-  color: #11fe3c;
-  text-shadow: 0 0 15px #11fe3c;
-  margin-right: 20px;
-}
-
-#game-btn {
-  width: 50%;
-  margin: 20px;
-  padding: 10px;
-  border-radius: 10px;
-  color: rgb(0, 245, 57);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: rgba(5, 5, 5, 0.541);
-}
-#game-btn h3 {
-  font-size: 2rem;
-  color: #00ff08;
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  z-index: -100;
 }
 
 .nav-bar {
@@ -53,19 +34,35 @@ main {
   box-shadow: 0 0 30px #11fe3c;
 }
 
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
-  z-index: -100;
+#game-container {
+  width: 100%;
+}
+
+.game {
+  z-index: 200;
+}
+
+#endGame {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -30px;
+}
+
+#cursive {
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #11fe3c;
+  text-shadow: 0 0 15px #11fe3c;
+  margin-right: 20px;
 }
 
 .quote-container {
   width: 100%;
-  height: 80vh;
+  height: 50vh;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,6 +101,22 @@ main {
   text-align: center;
 }
 
+#game-btn-div {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(0, 245, 57);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(5, 5, 5, 0.541);
+}
+#game-btn-div h3 {
+  font-size: 2rem;
+  color: #00ff08;
+}
+
 .slogan {
   font-size: 1.5rem;
   color: white;
@@ -112,9 +125,8 @@ main {
 }
 
 .logos-container {
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  height: 35vh;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -126,7 +138,6 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 40px 20px 0px 20px;
   padding: 20px;
   background-color: rgba(62, 62, 62, 0.627);
   border-radius: 10px;
@@ -195,14 +206,6 @@ main {
 .contact-container {
   position: relative;
 }
-/* .contact-name {
-  margin-left: 20px;
-  padding: 5px;
-  position: relative;
-  color: rgb(248, 252, 255);
-  text-shadow: 4px 4px 4px rgb(8, 126, 223);
-  font-size: 4rem;
-} */
 
 .contact-list {
   color: aliceblue;
@@ -394,11 +397,6 @@ main {
     background-position: 0 0;
   }
 }
-/* #quote-btn:hover {
-  background: #fe111d;
-  color: #111;
-  box-shadow: 0 0 50px #fe111d;
-} */
 
 #play-btn {
   position: relative;
@@ -549,11 +547,4 @@ main {
   .quote-div h6 {
     font-size: 1.1rem;
   }
-}
-
-#game {
-  width: 100%;
-  height: 20vh;
-  position: absolute;
-  bottom: 0;
 }

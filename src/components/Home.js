@@ -13,6 +13,7 @@ import Game from "./Game";
 function Home() {
   const [quote, setQuote] = useState({ quote: "", author: "" });
   const [showGame, setShowGame] = useState(false);
+  const [showGameBtn, setShowGameBtn] = useState(true);
 
   useEffect(() => {
     const apiget = async () => {
@@ -40,6 +41,7 @@ function Home() {
 
   const handleShowGame = () => {
     setShowGame(!showGame);
+    setShowGameBtn(!showGameBtn);
   };
   return (
     <main>
@@ -54,12 +56,14 @@ function Home() {
             New Quote
           </h3>
         </section>
-        <div id="game-btn">
-          <h3>Have time for a quick game?</h3>
-          <button id="play-btn" onClick={handleShowGame}>
-            Play
-          </button>
-        </div>
+        {showGameBtn ? (
+          <div id="game-btn-div">
+            <h3>Have time for a quick game?</h3>
+            <button id="play-btn" onClick={handleShowGame}>
+              Play
+            </button>
+          </div>
+        ) : null}
       </div>
       {showGame === false ? (
         <div className="logos-container">
@@ -109,9 +113,16 @@ function Home() {
           </div>
         </div>
       ) : (
-        <div id="game">
-          <Game />
-        </div>
+        <>
+          <div id="endGame">
+            <button id="play-btn" onClick={handleShowGame}>
+              X
+            </button>
+          </div>
+          <div id="game-container">
+            <Game />
+          </div>
+        </>
       )}
     </main>
   );
