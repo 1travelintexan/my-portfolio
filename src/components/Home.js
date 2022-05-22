@@ -113,7 +113,7 @@ function Home() {
           </div>
         </div>
       ) : (
-        <>
+        <div className="game-div">
           <div id="endGame">
             <button id="play-btn" onClick={handleShowGame}>
               X
@@ -122,7 +122,7 @@ function Home() {
           <div id="game-container">
             <Game />
           </div>
-        </>
+        </div>
       )}
     </main>
   );
