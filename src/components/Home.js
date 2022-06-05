@@ -115,7 +115,10 @@ function Home() {
       ) : (
         <div className="game-div">
           <div id="endGame">
-            <button id="play-btn" onClick={handleShowGame}>
+            <h6 className="instructions">
+              Click your mouse to avoid obstacles & get your morning coffee!
+            </h6>
+            <button id="X-btn" onClick={handleShowGame}>
               X
             </button>
           </div>
