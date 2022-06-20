@@ -6,9 +6,20 @@ body {
   padding: 0;
 }
 
+.active {
+  background-color: rgb(86, 86, 86);
+  text-decoration-color: rgb(255, 0, 0);
+  text-decoration-thickness: 3px;
+}
 main {
   display: flex;
   align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-projects {
+  display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -174,7 +185,7 @@ main {
 
 .projects-container {
   position: relative;
-  width: 90%;
+  width: 60vw;
   background-color: rgba(0, 0, 0, 0.795);
   color: rgb(209, 247, 247);
   border-radius: 20px;
@@ -189,6 +200,10 @@ main {
 .link {
   color: blue;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.project {
+  margin-top: 20px;
 }
 
 .project h3 {
@@ -312,12 +327,16 @@ main {
 
 .about-paragraph h4 {
   padding: 5px;
+  font-size: 2rem;
 }
 
-.bigger-font {
-  font-size: 2rem;
+.about-paragraph h3 {
+  font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  color: #11fe3c;
+  text-shadow: 0 0 30px rgb(64, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contact-list h3:hover {

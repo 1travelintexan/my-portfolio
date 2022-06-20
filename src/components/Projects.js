@@ -5,14 +5,14 @@ import image from "../images/mac-keyboard.jpeg";
 class Projects extends Component {
   render() {
     return (
-      <main>
+      <main className="main-projects">
         <img
           src={image}
           alt="mac keyboard"
           className="background about-background"
           loading="lazy"
         />
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center mt-20">
           <h3 className="projects-banner">Some of my handy work:</h3>
         </div>
         <section className="relative flex justify-center">

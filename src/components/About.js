@@ -25,9 +25,9 @@ class About extends Component {
               />
             </div>
             <div className="about-paragraph">
-              <h5 className="bigger-font">
+              <h3 className="bigger-font">
                 Junior Full-Stack Web Developer(MERN)
-              </h5>
+              </h3>
               <h4>
                 -Native Texan and former CnC Machine Programmer, I made my
                 career change during the pandemic to tech. Tech is the future
