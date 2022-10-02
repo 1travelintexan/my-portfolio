@@ -56,64 +56,65 @@ function Home() {
             New Quote
           </h3>
         </section>
-        {showGameBtn ? (
+        {/* {showGameBtn ? (
           <div id="game-btn-div">
             <h3>Have time for a quick game?</h3>
             <button id="play-btn" onClick={handleShowGame}>
               Play
             </button>
           </div>
-        ) : null}
+        ) : null} */}
       </div>
-      {showGame === false ? (
-        <div className="logos-container">
-          <div className="logos-div">
-            <img
-              src={jsImage}
-              alt="js"
-              className="logos relative"
-              loading="lazy"
-            />
-            <img
-              src={htmlImage}
-              alt="html"
-              className="logos relative"
-              loading="lazy"
-            />
-            <img
-              src={cssImage}
-              alt="css"
-              className="logos relative"
-              loading="lazy"
-            />
-            <img
-              src={reactImage}
-              alt="react"
-              className="logos relative"
-              loading="lazy"
-            />
-            <img
-              src={tsImage}
-              alt="ts"
-              className="logos relative"
-              loading="lazy"
-            />
-            <img
-              src={nodeImage}
-              alt="node"
-              className="logos relative"
-              loading="lazy"
-            />
-            <img
-              src={mongoImage}
-              alt="mongo"
-              className="logos relative"
-              loading="lazy"
-            />
+      {
+        showGame === false ? (
+          <div className="logos-container">
+            <div className="logos-div">
+              <img
+                src={jsImage}
+                alt="js"
+                className="logos relative"
+                loading="lazy"
+              />
+              <img
+                src={htmlImage}
+                alt="html"
+                className="logos relative"
+                loading="lazy"
+              />
+              <img
+                src={cssImage}
+                alt="css"
+                className="logos relative"
+                loading="lazy"
+              />
+              <img
+                src={reactImage}
+                alt="react"
+                className="logos relative"
+                loading="lazy"
+              />
+              <img
+                src={tsImage}
+                alt="ts"
+                className="logos relative"
+                loading="lazy"
+              />
+              <img
+                src={nodeImage}
+                alt="node"
+                className="logos relative"
+                loading="lazy"
+              />
+              <img
+                src={mongoImage}
+                alt="mongo"
+                className="logos relative"
+                loading="lazy"
+              />
+            </div>
           </div>
-        </div>
-      ) : (
-        <div className="game-div">
+        ) : null
+        /* <div className="game-div">
           <div id="endGame">
             <h6 className="instructions">
               Click your mouse to avoid obstacles & get your morning coffee!
@@ -125,8 +126,8 @@ function Home() {
           <div id="game-container">
             <Game />
           </div>
-        </div>
-      )}
+        </div> */
+      }
     </main>
   );
 }
