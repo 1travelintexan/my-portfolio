@@ -23,10 +23,14 @@ class Contact extends Component {
               </li>
               <li>
                 WhatsApp:
-                <li>+351 912 511 379 </li>
+                <li>+1 832 604 3287 </li>
               </li>
               <li>
-                <li>Location:</li> Conroe, TX
+                European Number:
+                <li>+32 662 572 121 </li>
+              </li>
+              <li>
+                <li>Location:</li> Anywhere and everywhere
               </li>
             </ul>
           </div>

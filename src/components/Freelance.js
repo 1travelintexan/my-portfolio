@@ -17,6 +17,16 @@ function Freelance() {
         <section className="relative flex justify-center">
           <div className="projects-container">
             <div className="project">
+              <a href="https://song-finder.cyclic.app/">
+                <h3>Spotify Song Finder</h3>
+              </a>
+              <h5 className="slogan">
+                Designed using Spotify's free API to find songs and listen to
+                sound clips. Created with HBS as a view engine, deployed with
+                Cyclic and MongoDB Atlas.
+              </h5>
+            </div>
+            <div className="project">
               <a href="https://oliguinco.netlify.app/">
                 <h3>The Olguin Co.</h3>
               </a>

@@ -283,9 +283,9 @@ main {
 }
 
 .about-banner {
-  margin-top: 10px;
+  margin-top: 50px;
   color: rgb(223, 230, 230);
-  text-shadow: 3px 3px 6px red;
+  text-shadow: 3px 3px 6px #059a0a;
   font-size: 5rem;
   font-family: fantasy;
   text-align: center;
@@ -293,8 +293,8 @@ main {
 
 .about-pics {
   position: relative;
-  height: 12rem;
-  width: 12rem;
+  height: 15rem;
+  width: 15rem;
   margin: 10px;
   padding-bottom: 30px;
   background-color: rgb(250, 231, 213);

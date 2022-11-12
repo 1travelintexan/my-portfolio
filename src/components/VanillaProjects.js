@@ -26,6 +26,15 @@ function Vanilla() {
               <h5 className="slogan">Virtual Etch-a-Sketch app.</h5>
             </div>
             <div className="project relative">
+              <a href="https://1travelintexan.github.io/lab-javascript-memory-game/">
+                <h3>Super-hero Memory Game</h3>
+              </a>
+              <h5 className="slogan">
+                Card flipping, memory game made with vanilla HTML, CSS and
+                Javascript
+              </h5>
+            </div>
+            <div className="project relative">
               <a href="https://1travelintexan.github.io/Drum-kit/">
                 <h3>Drum Kit!</h3>
               </a>
