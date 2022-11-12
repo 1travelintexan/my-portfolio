@@ -12,6 +12,15 @@ function ReactProjects() {
         <section className="relative flex justify-center">
           <div className="projects-container">
             <div className="project">
+              <a href="https://move-it-or-lose-it.netlify.app/">
+                <h3>Move-it</h3>
+              </a>
+              <h5 className="slogan">
+                Fast paced Chess game, programmed with React without the help of
+                external libraries that track the piece moves.
+              </h5>
+            </div>
+            <div className="project">
               <a href="https://1travelintexan.github.io/Rippin-Brah-/">
                 <h3>Rippin Brah!</h3>
               </a>
@@ -34,6 +43,15 @@ function ReactProjects() {
               </a>
               <h5 className="slogan">
                 Designed for surfers to create social events.
+              </h5>
+            </div>
+            <div className="project relative">
+              <a href="https://star-wars-app-beta.vercel.app/">
+                <h3>Star Wars APP</h3>
+              </a>
+              <h5 className="slogan">
+                Using SWAPI ('Star Wars API') to display characters, planets and
+                film details. Built with Next js, deployed with Vercel
               </h5>
             </div>
           </div>
