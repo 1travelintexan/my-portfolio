@@ -19,27 +19,31 @@ class Projects extends Component {
           <div className="projects-container">
             <div className="project">
               <Link className="project-link" to="/project/reactprojects">
-                <h3>-Bootcamp Projects</h3>
+                <h3>-React Projects</h3>
               </Link>
-              <h5 className="slogan">My first 3 Projects</h5>
+              <h5 className="slogan">
+                Made with React and deployed with Netlify
+              </h5>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/TSprojects">
                 <h3>-Typescript Projects</h3>
               </Link>
-              <h5 className="slogan">Typescript practice projects</h5>
+              <h5 className="slogan">
+                Made with React and configured with Typescript{" "}
+              </h5>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/vanillaJS">
-                <h3>-Practice HTML</h3>
+                <h3> -HTML Projects</h3>
               </Link>
-              <h5 className="slogan">Vanilla Javascript fun projects</h5>
+              <h5 className="slogan">Only HTML, CSS and Javascript</h5>
             </div>
             <div className="project">
               <Link className="project-link" to="/project/freelance">
-                <h3>-Freelance Apps</h3>
+                <h3>-SSR Projects (server side render)</h3>
               </Link>
-              <h5 className="slogan">Small businesses webpages</h5>
+              <h5 className="slogan">Apps created using Express and MongoDB</h5>
             </div>
           </div>
         </section>

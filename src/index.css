@@ -172,6 +172,7 @@ main {
 }
 
 .center {
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,7 +185,6 @@ main {
 }
 
 .projects-container {
-  position: relative;
   width: 60vw;
   background-color: rgba(0, 0, 0, 0.795);
   color: rgb(209, 247, 247);
@@ -221,8 +221,8 @@ main {
 }
 
 .projects-banner {
-  margin: 10px;
-  padding: 10px;
+  margin-top: 30px;
+  padding: 20px;
   border-radius: 20px;
   color: rgb(223, 230, 230);
   text-shadow: 3px 3px 6px red;
@@ -233,13 +233,25 @@ main {
 }
 
 .contact-container {
-  position: relative;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .contact-list {
   color: aliceblue;
   margin: 10px 20px 10px 40px;
   font-size: 1.7rem;
+}
+.contact-item {
+  font-size: 2.5vw;
+  color: rgb(252, 252, 252);
+  text-shadow: 4px 4px 8px rgb(255, 0, 0);
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0);
 }
 
 .contact-banner {
@@ -339,18 +351,7 @@ main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.contact-list h3:hover {
-  text-shadow: 6px 6px 8px rgb(204, 1, 1);
-}
-
 .project-link h3:hover {
-  border: 2px solid white;
-  border-radius: 10px;
-  padding: 10px;
-  text-shadow: 0px 0px 10px rgb(248, 246, 255);
-}
-
-.project h3:hover {
   border: 2px solid white;
   border-radius: 10px;
   padding: 10px;
