@@ -12,7 +12,7 @@ class Projects extends Component {
           className="background about-background"
           loading="lazy"
         />
-        <div className="relative flex justify-center mt-20">
+        <div className="relative flex justify-center">
           <h3 className="projects-banner">Some of my handy work:</h3>
         </div>
         <section className="relative flex justify-center">
