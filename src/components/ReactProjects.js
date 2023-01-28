@@ -21,7 +21,7 @@ function ReactProjects() {
               </h5>
             </div>
             <div className="project relative">
-              <a href="https://kook-club.herokuapp.com/">
+              <a href="https://kook-club.netlify.app/">
                 <h3>Kook Club</h3>
               </a>
               <h5 className="slogan">
