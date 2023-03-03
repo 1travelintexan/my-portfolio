@@ -25,24 +25,43 @@ main {
 }
 
 .background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
+  background-image: url("./images/mac-keyboard.jpeg");
   background-size: cover;
-  z-index: -100;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
-
+.background1 {
+  background-image: url("./images/mac.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.background2 {
+  background-image: url("./images/macbookAirPic.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.background3 {
+  background-image: url("./images/code1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.background4 {
+  background-image: url("./images/dark-world.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
 .nav-bar {
-  width: 100%;
   padding: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 8px solid #11fe3c;
+  border-bottom: 4px solid #11fe3c;
   background-color: rgb(17, 16, 16);
-  box-shadow: 0 0 30px #11fe3c;
+  box-shadow: 0 0 50px #11fe3c;
 }
 
 .game-div {
@@ -221,7 +240,7 @@ main {
 }
 
 .projects-banner {
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 20px;
   border-radius: 20px;
   color: rgb(223, 230, 230);

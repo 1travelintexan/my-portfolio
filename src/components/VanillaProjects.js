@@ -1,11 +1,7 @@
-import React from "react";
-import image from "../images/macbookAirPic.jpeg";
-
 function Vanilla() {
   return (
-    <main>
+    <main className="background2">
       <div className="center">
-        <img src={image} alt="macbook" className="background" loading="lazy" />
         <div className="relative flex justify-center">
           <h3 className="projects-banner">Vanilla JS Projects</h3>
         </div>

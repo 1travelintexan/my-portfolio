@@ -3,9 +3,8 @@ import image from "../images/macbookAirPic.jpeg";
 
 function ReactProjects() {
   return (
-    <div>
+    <div className="background2">
       <div>
-        <img src={image} alt="macbook" className="background" loading="lazy" />
         <div className="relative flex justify-center">
           <h3 className="projects-banner">Bootcamp Projects!</h3>
         </div>

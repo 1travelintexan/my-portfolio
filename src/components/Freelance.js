@@ -3,14 +3,8 @@ import image from "../images/macbookAirPic.jpeg";
 
 function Freelance() {
   return (
-    <div>
+    <div className="background2">
       <div>
-        <img
-          src={image}
-          alt="macbook"
-          className="absolute object-cover w-full h-full"
-          loading="lazy"
-        />
         <div className="relative flex justify-center">
           <h3 className="projects-banner">SSR Sites</h3>
         </div>
@@ -27,7 +21,7 @@ function Freelance() {
               </h5>
             </div>
             <div className="project">
-              <a href="https://lifes-a-beach.herokuapp.com//">
+              <a href="https://lifes-a-beach.herokuapp.com/">
                 <h3>Life's a Beach</h3>
               </a>
               <h5 className="slogan">

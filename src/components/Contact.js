@@ -5,13 +5,7 @@ import backgroundImage from "../images/dark-world.jpeg";
 class Contact extends Component {
   render() {
     return (
-      <main>
-        <img
-          src={backgroundImage}
-          alt="macbook air"
-          className="background about-background"
-          loading="lazy"
-        />
+      <main className="background4">
         <div className="contact-container">
           <div className="contact-list">
             <h3 className="contact-item">

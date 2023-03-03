@@ -3,8 +3,7 @@ import image from "../images/macbookAirPic.jpeg";
 
 function TsProjects() {
   return (
-    <div>
-      <img src={image} alt="macbook" className="background" loading="lazy" />
+    <div className="background2">
       <div className="relative flex justify-center">
         <h3 className="projects-banner">Typescript Projects</h3>
       </div>

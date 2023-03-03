@@ -1,18 +1,11 @@
 import React, { Component } from "react";
-import image from "../images/code1.jpeg";
 import image2 from "../images/myFace.jpg";
 import image3 from "../images/meAndRagnar.jpg";
 
 class About extends Component {
   render() {
     return (
-      <main>
-        <img
-          src={image}
-          alt="coding"
-          className="background about-background"
-          loading="lazy"
-        />
+      <main className="background3">
         <div className="main-about">
           <h3 className="about-banner">A little about me...</h3>
           <div className="about-pic-and-paragraph">

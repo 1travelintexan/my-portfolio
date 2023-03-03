@@ -44,9 +44,7 @@ function Home() {
     setShowGameBtn(!showGameBtn);
   };
   return (
-    <main>
-      <img src={image} alt="macbook" className=" background" loading="lazy" />
-
+    <main className="background1">
       <div className="quote-container">
         <h1 className="home-banner">Inspirational Quote of the day:</h1>
         <section className="quote-div">

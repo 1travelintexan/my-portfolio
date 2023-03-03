@@ -5,16 +5,8 @@ import image from "../images/mac-keyboard.jpeg";
 class Projects extends Component {
   render() {
     return (
-      <main className="main-projects">
-        <img
-          src={image}
-          alt="mac keyboard"
-          className="background about-background"
-          loading="lazy"
-        />
-        <div className="relative flex justify-center">
-          <h3 className="projects-banner">Some of my handy work:</h3>
-        </div>
+      <main className="main-projects background">
+        <h3 className="projects-banner">Some of my handy work:</h3>
         <section className="relative flex justify-center">
           <div className="projects-container">
             <div className="project">
