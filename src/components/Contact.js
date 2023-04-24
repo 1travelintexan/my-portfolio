@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { SocialIcon } from "react-social-icons";
-import backgroundImage from "../images/dark-world.jpeg";
 
 class Contact extends Component {
   render() {

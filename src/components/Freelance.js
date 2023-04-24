@@ -11,7 +11,7 @@ function Freelance() {
         <section className="relative flex justify-center">
           <div className="projects-container">
             <div className="project">
-              <a href="https://song-finder.cyclic.app/">
+              <a href="https://josh-ify.adaptable.app">
                 <h3>Spotify Song Finder</h3>
               </a>
               <h5 className="slogan">

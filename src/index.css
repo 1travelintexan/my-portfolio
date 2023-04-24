@@ -534,11 +534,6 @@ main {
 }
 
 @media screen and (max-width: 400px) {
-  .about-background {
-    height: 180%;
-    width: 150%;
-  }
-
   .about-pic-and-paragraph {
     display: flex;
     flex-direction: column;
