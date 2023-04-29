@@ -21,7 +21,7 @@ function Freelance() {
               </h5>
             </div>
             <div className="project">
-              <a href="https://lifes-a-beach.herokuapp.com/">
+              <a href="https://lifes-a-beach.adaptable.app/">
                 <h3>Life's a Beach</h3>
               </a>
               <h5 className="slogan">
