@@ -7,6 +7,7 @@ import nodeImage from "../images/nodeJsLogo.png";
 import reactImage from "../images/react.png";
 import tsImage from "../images/ts.png";
 import mongoImage from "../images/mongoDB.png";
+import viteImage from "../images/vite.png";
 import Game from "./Game";
 // import Game from "./Game";
 
@@ -106,6 +107,12 @@ function Home() {
               <img
                 src={mongoImage}
                 alt="mongo"
+                className="logos relative"
+                loading="lazy"
+              />
+              <img
+                src={viteImage}
+                alt="vite"
                 className="logos relative"
                 loading="lazy"
               />
