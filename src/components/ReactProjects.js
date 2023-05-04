@@ -39,7 +39,7 @@ function ReactProjects() {
             </div>
             <div className="project relative">
               <a href="https://massage-by-solange.netlify.app">
-                <h3>Solange the Massage Therapist</h3>
+                <h3> Massage by Solange</h3>
               </a>
               <h5 className="slogan">
                 Static webpage for a friend and amazing masseuse in Ericeira,
@@ -47,12 +47,10 @@ function ReactProjects() {
               </h5>
             </div>
             <div className="project relative">
-              <a href="https://oliguinco.netlify.app/">
-                <h3>The Olguin Co.</h3>
+              <a href="https://massage-benedict.netlify.app">
+                <h3>Massage Benedict</h3>
               </a>
-              <h5 className="slogan">
-                Static webpage for a local T-shirt start-up company
-              </h5>
+              <h5 className="slogan">SPA for local masseuse</h5>
             </div>
           </div>
         </section>
