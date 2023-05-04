@@ -6,7 +6,7 @@ function ReactProjects() {
     <div className="background2">
       <div>
         <div className="relative flex justify-center">
-          <h3 className="projects-banner">Bootcamp Projects!</h3>
+          <h3 className="projects-banner">CRA Projects</h3>
         </div>
         <section className="relative flex justify-center">
           <div className="projects-container">

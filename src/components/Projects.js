@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import image from "../images/mac-keyboard.jpeg";
 
 class Projects extends Component {
   render() {

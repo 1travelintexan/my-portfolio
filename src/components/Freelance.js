@@ -29,6 +29,15 @@ function Freelance() {
                 budget and save for their dream vacation.
               </h5>
             </div>
+            <div className="project">
+              <a href="https://star-wars-app-beta.vercel.app/">
+                <h3>Star Wars APP (Next.js)</h3>
+              </a>
+              <h5 className="slogan">
+                Using SWAPI ('Star Wars API') to display characters, planets and
+                film details. Built with Next js, deployed with Vercel
+              </h5>
+            </div>
           </div>
         </section>
       </div>
